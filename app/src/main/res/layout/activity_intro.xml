@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#06060B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activties.IntroActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/bsac"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/gradient_background"
+        android:layout_height="match_parent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="35dp"
+            android:layout_gravity="bottom"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:textSize="28dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discovoer Your" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:textSize="28dp"
+                android:textColor="#EF7E27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Favorite Show" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:textSize="28dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Watch Now or Watch Later" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:textSize="18sp"
+                android:textColor="#717171"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="you can browse movies and shows by genre, search for specific title, or check out our recommendation" />
+
+            <Button
+                android:id="@+id/getInBtn"
+                android:layout_marginTop="19dp"
+                android:textSize="19sp"
+                android:backgroundTint="#FF8426"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Get Started" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
